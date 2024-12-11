@@ -5,7 +5,8 @@ public class Candy {
         color = canColor;
     }
     public String getFlavor() {
-        return color;
+        if(color != null) return color;
+        return null;
     }
 
 }
